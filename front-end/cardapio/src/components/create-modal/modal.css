@@ -23,7 +23,7 @@
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .modal-overlay .modal-body h2 {
@@ -47,11 +47,12 @@
 }
 
 .modal-overlay .modal-body label {
-    color: #242424;
+    color: #252525;
     font-weight: 600;
     margin-bottom: 8px;
     font-size: 18px;
 }
+
 
 .modal-overlay .modal-body .btn-secondary {
     position: initial;
@@ -60,6 +61,6 @@
 }
 
 .modal-overlay .modal-body .btn-secondary:hover {
-    background-color: #3a44f8;
+    background-color: #2b36fa;
     transform: scale(1);
 }
